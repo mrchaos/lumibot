@@ -35,11 +35,11 @@ setuptools.setup(
         "email_validator",
         "bcrypt",
         "pytest",
-        "scipy==1.10.1",  # Newer versions of scipy are currently causing issues
+        "scipy," #==1.10.1",  # Newer versions of scipy are currently causing issues
         "ipython",  # required for quantstats, but not in their dependency list for some reason
         "quantstats-lumi>=0.1.9",
-        "python-dotenv",  # Secret Storage
-        "ccxt==4.2.22",
+        "python-dotenv",  # Secret Storagepytho
+        "ccxt>=4.2.22",
         "termcolor",
         "jsonpickle",
         "apscheduler==3.10.4",
